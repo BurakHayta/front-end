@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="myDIV" class="header">
+		<h2>Hediyeler</h2>
+		<input type="text" id="myInput" placeholder="Alınan Hediyeler...">
+		<span onclick="newElement()" class="addBtn">Ekle</span>
+	  </div>
+	  
+	  <ul id="myUL">
+		<li>Parfüm</li>
+		<li>Gömlek</li>
+		<li>Kolye</li>
+		<li>Sweatshirt</li>
+		<li>Tişört</li>
+		<li>Makyaj Malzemesi</li>
+		<li>Kulaklık</li>
+		<li>Kitap</li>
+	  </ul>
+	  <script>var myUL =  ["Parfüm" , "Kitap"];
+		var   secim = myUL[myUL.length-1];
+	   console.log(myUL)
+	   </script>
+</body>
+<script src="app.js"></script>
+</html>
